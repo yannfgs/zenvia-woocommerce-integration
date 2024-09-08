@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-zenvia-api.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-zenvia-woocommerce.php';
 
+
 // Inicializa o plugin
 function zenvia_woocommerce_integration_init() {
     Zenvia_WooCommerce::init();
