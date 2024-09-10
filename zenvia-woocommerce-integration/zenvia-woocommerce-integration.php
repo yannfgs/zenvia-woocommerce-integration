@@ -1,5 +1,7 @@
 <?php
+
 /*
+
 Plugin Name: Integração Zenvia WooCommerce
 Plugin URI:  http://seusite.com/zenvia-woocommerce-integration
 Description: Integração do WooCommerce com a Zenvia para notificações automatizadas.
@@ -7,6 +9,7 @@ Version:     1.0
 Author:      Seu Nome
 Author URI:  http://seusite.com
 License:     GPL2
+
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
