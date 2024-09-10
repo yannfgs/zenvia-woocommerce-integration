@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly.
 }
 
+
 // Inclui os arquivos necessários
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-zenvia-api.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/class-zenvia-woocommerce.php';
