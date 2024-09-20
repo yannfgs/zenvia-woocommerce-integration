@@ -28,4 +28,5 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/class-zenvia-woocommerce.ph
 function zenvia_woocommerce_integration_init() {
     Zenvia_WooCommerce::init();
 }
+
 add_action( 'plugins_loaded', 'zenvia_woocommerce_integration_init' );
